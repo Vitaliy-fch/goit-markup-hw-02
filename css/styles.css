@@ -1,24 +1,31 @@
 body {
   font-family: Roboto, sans-serif;
-  color: #2e2f42;
+  color: #434455;
+  background-color: #ffffff;
 }
 
 /*  Navigation*/
 .navigation .logo {
-  color: #2e2f42;
+  color: #4d5ae5;
   font-size: 18px;
   font-weight: 700;
-  font-family: Raleway;
-  line-height: 21px;
-  letter-spacing: 3%;
+  font-family: Raleway, sans-serif;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
 }
-.navigation li a {
+.logo-text {
+  color: #2e2f42;
+}
+.navigation-list {
   color: #2e2f42;
   font-size: 16px;
-  font-weight: 700;
+  font-weight: 500;
   line-height: 24px;
+  letter-spacing: 0.02em;
 }
-.navigation li a:hover {
+.navigation-list:hover,
+.navigation-list:focus {
   color: #404bbf;
 }
 .contacts a {
@@ -40,16 +47,16 @@ body {
 /* Button */
 .custom-button {
   color: #ffffff;
+  font-family: Roboto, sans-serif;
   background-color: #4d5ae5;
   cursor: pointer;
-  border: none;
-  border-radius: 4px;
   font-weight: 500;
   font-size: 16px;
-  padding: 16px 32px 16px 32px;
-  letter-spacing: 4%;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
 }
-.custom-button:hover {
+.custom-button:hover,
+.custom-button:focus {
   background-color: #404bbf;
   cursor: pointer;
 }
@@ -63,14 +70,16 @@ body {
 .list-text {
   font-size: 16px;
   line-height: 24px;
+  letter-spacing: 0.02em;
 }
 
 /* Team information */
 .information-title {
   font-weight: 700;
   font-size: 36px;
-  line-height: 40px;
-  letter-spacing: 2%;
+  line-height: 1.07;
+  text-align: center;
+  letter-spacing: 0.02em;
 }
 
 .information-specialist {
@@ -109,18 +118,21 @@ footer {
   background-color: #2e2f42;
 }
 
-.logo {
-  color: #f4f4fd;
+.information-logo {
+  color: #4d5ae5;
   font-size: 18px;
   font-weight: 700;
-  font-family: Raleway;
-  line-height: 21px;
-  letter-spacing: 3%;
+  font-family: Raleway, sans-serif;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
 }
-
+.information-logo-text {
+  color: #f4f4fd;
+}
 .marketing-message {
   color: #f4f4fd;
   font-size: 16px;
   line-height: 24px;
-  letter-spacing: 2%;
+  letter-spacing: 0.02em;
 }
