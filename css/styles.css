@@ -33,16 +33,24 @@ body {
   font-size: 16px;
   font-weight: 400;
   line-height: 24px;
+  font-style: normal;
+  letter-spacing: 0.02em;
 }
-.contacts a:hover {
+.contacts a:hover,
+.contacts a:focus {
   color: #404bbf;
 }
+
 .solutions {
+  background-color: #2e2f42;
+}
+.solutions-title {
   color: #ffffff;
   font-size: 56px;
   font-weight: 700;
-  line-height: 60px;
-  background-color: #2e2f42;
+  line-height: 1.07;
+  text-align: center;
+  letter-spacing: 0.02em;
 }
 /* Button */
 .custom-button {
@@ -74,12 +82,17 @@ body {
 }
 
 /* Team information */
+.information {
+  background-color: #f4f4fd;
+}
 .information-title {
+  color: #2e2f42;
   font-weight: 700;
   font-size: 36px;
-  line-height: 1.07;
+  line-height: 1.11;
   text-align: center;
   letter-spacing: 0.02em;
+  text-transform: capitalize;
 }
 
 .information-specialist {
@@ -93,11 +106,17 @@ body {
 }
 
 /* Our Portfolio */
-.portfolio-title {
+.portfolio {
+  background-color: #ffffff;
+}
+.list-portfolio-title {
+  color: #2e2f42;
+  text-align: center;
+  text-transform: capitalize;
   font-weight: 700;
   font-size: 36px;
-  line-height: 40px;
-  letter-spacing: 2%;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
 }
 
 .list-services {
@@ -110,11 +129,11 @@ body {
 .list-services-text {
   font-size: 16px;
   line-height: 24px;
-  letter-spacing: 2%;
+  letter-spacing: 0.02em;
 }
 
 /* footer */
-footer {
+.information-footer {
   background-color: #2e2f42;
 }
 
