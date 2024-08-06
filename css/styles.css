@@ -96,20 +96,23 @@ body {
 }
 
 .information-specialist {
+  color: #2e2f42;
   font-weight: 500;
   font-size: 20px;
   line-height: 24px;
+  letter-spacing: 0.02em;
 }
 .information-profession {
   font-size: 16px;
   line-height: 24px;
+  letter-spacing: 0.02em;
 }
 
 /* Our Portfolio */
 .portfolio {
   background-color: #ffffff;
 }
-.list-portfolio-title {
+.portfolio .list-portfolio-title {
   color: #2e2f42;
   text-align: center;
   text-transform: capitalize;
