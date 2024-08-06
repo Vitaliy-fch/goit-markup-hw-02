@@ -82,9 +82,10 @@ body {
 }
 
 /* Team information */
-.information {
+.team-information {
   background-color: #f4f4fd;
 }
+
 .information-title {
   color: #2e2f42;
   font-weight: 700;
@@ -93,6 +94,10 @@ body {
   text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
+}
+
+.information-list {
+  background-color: #ffffff;
 }
 
 .information-specialist {
