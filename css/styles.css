@@ -75,9 +75,11 @@ body {
 
 /* Description of goals */
 .list-title {
+  color: #2e2f42;
   font-size: 20px;
   font-weight: 500;
   line-height: 24px;
+  letter-spacing: 0.02em;
 }
 .list-text {
   font-size: 16px;
@@ -132,10 +134,11 @@ body {
 }
 
 .list-services {
+  color: #2e2f42;
   font-weight: 500;
   font-size: 20px;
   line-height: 24px;
-  letter-spacing: 2%;
+  letter-spacing: 0.02em;
 }
 
 .list-services-text {
