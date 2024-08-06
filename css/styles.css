@@ -121,7 +121,7 @@ body {
 .portfolio {
   background-color: #ffffff;
 }
-.portfolio .list-portfolio-title {
+.portfolio-title {
   color: #2e2f42;
   text-align: center;
   text-transform: capitalize;
